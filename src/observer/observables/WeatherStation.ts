@@ -3,7 +3,7 @@ import IObserver from "../observers/IObserver";
 
 class WeatherStation implements IObservable {
     observers: Array<IObserver>
-    temperature: Number
+    temperature: number
 
     constructor() {
         this.observers = []
@@ -23,12 +23,12 @@ class WeatherStation implements IObservable {
         this.observers = this.observers.filter(elem => elem !== observer)
     }
 
-    setTemperature(temperature: Number): void {
+    setTemperature(temperature: number): void {
         this.temperature = temperature
         this.notify();
     }
 
-    getTemperature(): Number {
+    getTemperature(): number {
         return this.temperature
     }
 
