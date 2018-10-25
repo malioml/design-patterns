@@ -5,6 +5,7 @@ import factoryMethod from './factoryMethod/index'
 import abstractFactory from './abstractFactory/index'
 import singleton from './singleton/index'
 import command from './command/index'
+import adapter from './adapter/index'
 
 strategy()
 observer()
@@ -13,3 +14,4 @@ factoryMethod()
 abstractFactory()
 singleton()
 command()
+adapter()
