@@ -6,6 +6,7 @@ import abstractFactory from './abstractFactory/index'
 import singleton from './singleton/index'
 import command from './command/index'
 import adapter from './adapter/index'
+import facade from './facade/index'
 
 strategy()
 observer()
@@ -15,3 +16,4 @@ abstractFactory()
 singleton()
 command()
 adapter()
+facade()
