@@ -7,6 +7,7 @@ import singleton from './singleton/index'
 import command from './command/index'
 import adapter from './adapter/index'
 import facade from './facade/index'
+import proxy from './proxy/index'
 
 strategy()
 observer()
@@ -17,3 +18,4 @@ singleton()
 command()
 adapter()
 facade()
+proxy()
