@@ -10,6 +10,7 @@ import facade from './facade/index'
 import proxy from './proxy/index'
 import bridge from './bridge/index'
 import templateMethod from './templateMethod/index'
+import composite from './composite/index'
 
 strategy()
 observer()
@@ -23,3 +24,4 @@ facade()
 proxy()
 bridge()
 templateMethod()
+composite()
