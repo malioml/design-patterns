@@ -11,6 +11,7 @@ import proxy from './proxy/index'
 import bridge from './bridge/index'
 import templateMethod from './templateMethod/index'
 import composite from './composite/index'
+import iterator from './iterator/index'
 
 strategy()
 observer()
@@ -25,3 +26,4 @@ proxy()
 bridge()
 templateMethod()
 composite()
+iterator()

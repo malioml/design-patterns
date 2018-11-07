@@ -1,6 +1,7 @@
 import IInventory from "./IInventory";
 import IItem from "./IItem";
 import IInventoryIterator from "./IInventoryIterator";
+import HandHeldInventoryIterator from "./HandHeldInventoryIterator";
 
 class HandHeldInventory implements IInventory{
     right: IItem
@@ -14,5 +15,6 @@ class HandHeldInventory implements IInventory{
     getIterator(): IInventoryIterator {
         return new HandHeldInventoryIterator(this)
     }
-
 }
+
+export default HandHeldInventory
