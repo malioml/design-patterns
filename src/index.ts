@@ -12,6 +12,7 @@ import bridge from './bridge/index'
 import templateMethod from './templateMethod/index'
 import composite from './composite/index'
 import iterator from './iterator/index'
+import state from './state/index'
 
 strategy()
 observer()
@@ -27,3 +28,4 @@ bridge()
 templateMethod()
 composite()
 iterator()
+state()
