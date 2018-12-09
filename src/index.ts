@@ -14,6 +14,7 @@ import composite from './composite/index'
 import iterator from './iterator/index'
 import state from './state/index'
 import nullObject from './nullObject/index'
+import visitor from './visitor/index'
 
 strategy()
 observer()
@@ -31,3 +32,4 @@ composite()
 iterator()
 state()
 nullObject()
+visitor()
